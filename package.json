@@ -15,10 +15,10 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.13.0",
-    "gatsby-plugin-gatsby-cloud": "^3.1.0",
-    "gatsby-plugin-image": "^1.13.0",
-    "gatsby-source-prismic": "^4.1.5",
+    "gatsby": "next",
+    "gatsby-plugin-gatsby-cloud": "next",
+    "gatsby-plugin-image": "next",
+    "gatsby-source-prismic": "next",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

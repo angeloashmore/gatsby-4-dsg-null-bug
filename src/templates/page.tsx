@@ -28,15 +28,20 @@ export default PageTemplate;
 
 export const query = graphql`
   query PageTemplate {
-    allPrismicPage {
-      nodes {
-        uid
-        data {
-          title {
-            text
-          }
-        }
+    site {
+      siteMetadata {
+        title
       }
     }
+    # allPrismicPage {
+    #   nodes {
+    #     uid
+    #     data {
+    #       title {
+    #         text
+    #       }
+    #     }
+    #   }
+    # }
   }
 `;
