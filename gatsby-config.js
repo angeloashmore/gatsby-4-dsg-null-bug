@@ -18,7 +18,7 @@ module.exports = {
                 type: "Slices",
                 fieldset: "Slice zone",
                 config: {
-                  // labels: null,
+                  labels: null,
                   choices: {
                     hero_feature: {
                       type: "Slice",
@@ -40,7 +40,7 @@ module.exports = {
                           type: "Link",
                           config: {
                             label: "Button Link",
-                            // select: null,
+                            select: null,
                           },
                         },
                         button_text: {
